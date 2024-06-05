@@ -1,0 +1,37 @@
+
+.DKTV {
+    width: 100%;
+    display: flex;
+    height: 900px;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f9fa;
+}
+.left {
+    flex: 1;
+    background-color: #c30000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+.form-dkntv {
+    width: 60%;
+    max-width: 300px;
+    height: 70%;
+    
+    color: white;
+}
+.form-dkntv h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+img.right{
+    flex: 1;
+    height: 960px;
+    margin-left: 356px;
+    padding: 0px;
+    img
+}
