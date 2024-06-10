@@ -4,13 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href = "bootstrap.min.css">
-    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href = "../bootstrap.min.css">
+    <script src="../bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <!--Dòng chữ chạy chạy-->
+    <!--Header trên cùng-->
+    <header class="thanhheader">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-2 "><img src="Image/logonho1.png" class="img-fluid" alt="logo" height="75px" width="75px"></div>
+                <div class="col-md-3 ">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Từ khóa bạn đang quan tâm." aria-label="Từ khóa bạn đang quan tâm." aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass fs-2"></i></span>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="fs-1 text-danger">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <strong>Tư vấn hỗ trợ<br></strong> 
+                                    <strong class="text-danger">1900 1511</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 ">
+                    <div class="row login">
+                        <div class="col-md-4 "><a href="../dangnhap/dangnhap.html">Đăng nhập</a></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3 "><a href="../dangnhap/dangky.html">Đăng kí</a></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <i class="fa-solid fa-user"></i> <br>
+                            <em><strong>Tài Khoản</strong></em>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="thanhmenu"></section>
+
     <!--Module 7 Đăng kí nhận tư vấn-->
+    
     <div class="ĐKTV">
         <div class="left">
             <div class="form-dkntv">
@@ -117,5 +169,6 @@
             });    
         };
     </script>
+
 </body>
 </html>

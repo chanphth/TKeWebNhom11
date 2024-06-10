@@ -156,3 +156,25 @@ button {
     color: #ff0000;
     margin-bottom: 10px;
 }
+.input-group-text  {
+    border: none;
+    
+    background-color:none;
+    box-shadow: none;
+    /* Thêm các thuộc tính CSS khác nếu cần */
+  }
+  .login a{
+    text-decoration: none;
+    display: block; /* Ensure the link takes full width and height */
+            padding: 10px 20px; /* Add padding to increase clickable area */
+            background-color: #17a2b8; /* Set background color */
+            color: white; /* Set text color */
+            border-radius: 10px; /* Round the corners */
+            text-align: center;
+}
+.login .col-md-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensure the div takes full height */
+}
