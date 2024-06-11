@@ -13,13 +13,17 @@
     <!--Dòng chữ chạy chạy-->
     <!--Header trên cùng-->
     <header class="thanhheader">
-        <div class="container-fluid py-3">
+        <div class="container py-3">
             <div class="row">
-                <div class="col-md-2 "><img src="Image/logonho1.png" class="img-fluid" alt="logo" height="75px" width="75px"></div>
-                <div class="col-md-3 ">
+                <div class="col-md-1 ">
+                    <a href="../Trang chu/index.html">
+                        <img src="Image/logonho1.png" class="img-fluid" alt="logo" height="75px" width="75px">
+                    </a>
+                </div>
+                <div class="col-md-4 ">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Từ khóa bạn đang quan tâm." aria-label="Từ khóa bạn đang quan tâm." aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass fs-2"></i></span>
+                        <input type="text" class="form-control" id="searchInput" placeholder="Từ khóa bạn đang quan tâm." aria-label="Từ khóa bạn đang quan tâm." aria-describedby="basic-addon2" onkeyup="checkEnter(event)">
+                        <span class="input-group-text" id="basic-addon2" onclick="showAlert()"><i class="fa-solid fa-magnifying-glass fs-2"></i></span>
                     </div>
 
                 </div>
@@ -170,6 +174,18 @@
             });    
         };
     </script>
-
+   <script>
+    function showAlert() {
+        const searchValue = document.getElementById('searchInput').value;
+        alert(`Bạn đã tìm kiếm: ${searchValue}`);
+    }
+    
+    function checkEnter(event) {
+        if (event.key === 'Enter') {
+            showAlert();
+        }
+    }
+    </script>
+    
 </body>
 </html>

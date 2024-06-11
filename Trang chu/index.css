@@ -178,3 +178,18 @@ button {
     justify-content: center;
     height: 100%; /* Ensure the div takes full height */
 }
+.thanhheader {
+    background-color: #f8f9fa; /* Màu nền tùy chỉnh */
+    height: 70px; /* Chiều cao của header */
+    display: flex;
+    display: flex;
+    align-items: center; /* căn giữa theo chiều dọc */
+    justify-content: space-between; /* căn phần tử đầu tiên và cuối cùng ra hai bên */
+    padding-top: 10px;
+    padding-bottom: 1rem;
+}
+.form-control{
+    
+        height: 30px; /* giữ nguyên chiều rộng của cột chứa thanh tìm kiếm */
+    
+}
