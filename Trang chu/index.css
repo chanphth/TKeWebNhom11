@@ -178,18 +178,28 @@ button {
     justify-content: center;
     height: 100%; /* Ensure the div takes full height */
 }
-.thanhheader {
-    background-color: #f8f9fa; /* Màu nền tùy chỉnh */
-    height: 70px; /* Chiều cao của header */
-    display: flex;
-    display: flex;
-    align-items: center; /* căn giữa theo chiều dọc */
-    justify-content: space-between; /* căn phần tử đầu tiên và cuối cùng ra hai bên */
-    padding-top: 10px;
-    padding-bottom: 1rem;
-}
+
 .form-control{
     
         height: 30px; /* giữ nguyên chiều rộng của cột chứa thanh tìm kiếm */
     
+}
+.logo{
+    border-radius: 50%; /* Làm cho hình ảnh thành hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh vừa khít với khung hình tròn */
+    width: 75px; /* Đảm bảo kích thước hình ảnh theo yêu cầu */
+    height: 75px;
+}
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(-15deg); }
+    40% { transform: rotate(15deg); }
+    60% { transform: rotate(-10deg); }
+    80% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.fs-1 {
+    display: inline-block;
+    animation: shake 0.5s infinite;
 }
