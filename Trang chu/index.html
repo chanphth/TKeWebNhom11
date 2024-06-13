@@ -85,46 +85,48 @@
     
     <!--Module 7 Đăng kí nhận tư vấn-->
     <div class="container-fluid">
-    <div class="ĐKTV">
-        <div class="left">
-            <div class="form-dkntv">
-                <form id="Formdkntv">
-                <h2>Đăng ký nhận tư vấn</h2>
+        <div class="row" id="DKNTV">
+            <div id="left" class="col-lg-6 d-flex align-items-center justify-content-center ">
+                <div class="form-dkntv">
+                    <form id="Formdkntv">
+                        <h2>Đăng ký nhận tư vấn</h2>
           
-                <div class="form-group">
-                    <label for="Họ và tên">Họ và tên:</label>
-                    <input type="text" name="Họ và tên" id="Hoten"><br><br>
-                    <span style="color: white;" id="loi1"></span>
-                </div>
+                        <div class="form-group">
+                            <label for="Họ và tên">Họ và tên:</label>
+                            <input type="text" name="Họ và tên" id="Hoten"><br><br>
+                            <span style="color: white;" id="loi1"></span>
+                        </div>
           
-                <div class="form-group">
-                    <label for="số điện thoại">Số điện thoại:</label> 
-                    <input type="text" name="số điện thoại" id="sodienthoai"><br><br>
-                    <span style="color: white;" id="loi2"></span>
-                </div>
+                        <div class="form-group">
+                            <label for="số điện thoại">Số điện thoại:</label> 
+                            <input type="text" name="số điện thoại" id="sodienthoai"><br><br>
+                            <span style="color: white;" id="loi2"></span>
+                        </div>
 
-                <div class="form-group">
-                    <label for="Email">Email:</label> 
-                    <input type="text" name="Email" id="email"><br><br>
-                    <span style="color: white;" id="loi3"></span>
+                        <div class="form-group">
+                            <label for="Email">Email:</label> 
+                            <input type="text" name="Email" id="email"><br><br>
+                            <span style="color: white;" id="loi3"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="tinhthanh">Tỉnh thành đang sinh sống:</label> 
+                            <input type="text" name="tinhthanh" id="tinhthanh"><br><br>
+                            <span style="color: white;" id="loi4"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="thoigiantv">Thời gian có thể tư vấn :</label> 
+                            <input type="text" name="thoigiantv" id="thoigiantv"><br><br>
+                            <span style="color: white;" id="loi5"></span>
+                        </div>
+                        <button id="dangky">Đăng ký nhận tư vấn</button>
+                    </form> 
                 </div>
-                <div class="form-group">
-                    <label for="tinhthanh">Tỉnh thành đang sinh sống:</label> 
-                    <input type="text" name="tinhthanh" id="tinhthanh"><br><br>
-                    <span style="color: white;" id="loi4"></span>
-                </div>
-                <div class="form-group">
-                    <label for="thoigiantv">Thời gian có thể tư vấn :</label> 
-                    <input type="text" name="thoigiantv" id="thoigiantv"><br><br>
-                    <span style="color: white;" id="loi5"></span>
-                </div>
-                <button id="dangky">Đăng ký</button>
-                </form> 
+            </div>
+            <div id="right" class="col-lg-6 d-flex align-items-center justify-content-center ">
+                <img src="/Trang chu/Image/ĐKNTV.png" id="right" alt="">
+            </div>
         </div>
-        <div class="right"></div>
-            <img src="Image/ĐKNTV.png" class="right" alt="">
     </div>
-</div>
     <script>
         function kiemTraDangKy() 
         {
